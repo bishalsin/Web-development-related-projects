@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Showroom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#models">Models</a></li>
+        <li><a href="#virtual-tour">Virtual Tour</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="hero">
+    <h1>Experience the Future of Driving</h1>
+    <p>Book a test drive today.</p>
+    <button onclick="scrollToModels()">Explore Models</button>
+  </header>
+
+  <section class="models" id="models">
+    <h2>Our Latest Models</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1707002752329-5a4a889f7de9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tesla Model X">
+        <h3>Tesla Model X</h3>
+        <p>Starting at $76,000</p>
+        <button>View Details</button>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1629896787263-9c85c2ef21bd?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Audi Q4 e-tron">
+        <h3>Audi Q4 e-tron</h3>
+        <p>Starting at $49,500</p>
+        <button>View Details</button>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1727994832515-7888b6edd884?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="BMW i4">
+        <h3>BMW i4</h3>
+        <p>Starting at $58,400</p>
+        <button>View Details</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="virtual-tour">
+    <h2>Take a Virtual Showroom Tour</h2>
+    <div class="tour-content">
+      <form id="testDriveForm">
+        <input type="text" placeholder="Name" required>
+        <input type="tel" placeholder="Phone" required>
+        <input type="email" placeholder="Email" required>
+        <select required>
+          <option>Choose Car Model</option>
+          <option>Tesla Model X</option>
+          <option>Audi Q4 e-tron</option>
+          <option>BMW i4</option>
+        </select>
+        <input type="date" required>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="test-content">
+        <h1>Book a Test Drive</h1>
+        <form id="testdrive">
+        <input type="text" placeholder="Name" required>
+        <input type="tel" placeholder="Phone" required>
+        <input type="email" placeholder="Email" required>
+        <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>Customer Testimonials</h2>
+    <div class="testimonial">
+      <p>"Excellent service and an amazing car buying experience!"</p>
+    </div>
+    <div class="testimonial">
+      <p>"The virtual tour was incredibly helpful in making my decision!"</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
