@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f87c6e;
+  color: #fff;
+}
+
+header.hero {
+  padding: 60px 20px;
+  background-color: #fa6a58;
+}
+
+header button {
+  padding: 10px 20px;
+  background: white;
+  color: #fa6a58;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header button:hover {
+  background: #15a654;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background: #fa6a58;
+  float: right;
+  top: 50%;
+  margin-top: 50px;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin: 0 10px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #2724c7;
+}
+
+.models {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f97d65;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
+.card button {
+  cursor: pointer;
+}
+.card button:hover {
+  background: #1c95a2;
+  color: rgb(30, 25, 189);
+  transition: 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.virtual-tour {
+  background: #f86e59;
+  padding: 40px 20px;
+
+}
+
+.tour-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+}
+
+form input, form select, form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background: white;
+  color: #f86e59;
+  font-weight: bold;
+  cursor: pointer;
+}
+form button:hover {
+  background: #155396;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+
+
+.testimonials {
+  padding: 40px 20px;
+  background: #f85a4f;
+  text-align: center;
+}
+
+.testimonial {
+  margin: 20px 0;
+  font-style: italic;
+}
+
+.test-content {
+  text-align: center;
+  justify-content: center;
+
+}
