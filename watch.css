@@ -1,0 +1,222 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, sans-serif;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+
+.body {
+    box-sizing: border-box;
+    color: black;
+    background-color: black;
+
+}
+
+.content {
+    text-align: center;
+    padding: 100px 50px;
+    background-image: url('image/hero-watch.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: white;
+    background-repeat: no-repeat;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.content h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: rgb(200, 198, 202);
+}
+
+.content button {
+    background-color: goldenrod;
+    color: rgb(18, 18, 18);
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.content button.second {
+    background-color: rgb(41, 41, 58);
+    color: white;
+}
+
+.content button.second:hover {
+    background-color: purple;
+}
+
+.container {
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    text-align: center;
+}
+
+.container p.first {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.container button {
+    background-color: goldenrod;
+    color: rgb(18, 18, 18);
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.container button:hover {
+    background-color: purple;
+}
+
+.container img {
+    border-radius: 10px;
+}
+
+.context {
+    background-color: black;
+    color: white;
+}
+
+.context h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.context p.fifth {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.icon1:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.04);
+    cursor: pointer;
+    color:rgb(29, 58, 84)
+}
+
+.text {
+    padding: 100px 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.text h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text p.text2 {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 20px;
+    color: rgb(181, 164, 36);
+}
+.text button.third {
+    background-color: goldenrod;
+    color: rgb(18, 18, 18);
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.text button.third:hover {
+    background-color: purple;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    gap: 200px;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+.text-footer {
+    gap: 20px;
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: purple;
+}
+
+.end {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
